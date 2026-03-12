@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+## Admission Form with Supabase (React CRUD App)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+This project is a Student Admission Form built using React and Supabase. The application allows users to submit student admission details through a form, store the data in a Supabase database, and manage the records through a simple dashboard.
 
-In the project directory, you can run:
+The system supports CRUD operations (Create, Read, Update, Delete), meaning users can add new students, view student records, edit existing information, and delete records. The project demonstrates how a frontend React application can connect directly to a Supabase backend without creating a separate server.
 
-### `npm start`
+This project is useful for understanding how React applications interact with cloud databases and how to build a simple admin-style form management system.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Student admission form
 
-### `npm test`
+Form validation before submission
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Data stored in Supabase database
 
-### `npm run build`
+Display all student records in a table
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Edit student details
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Delete student records
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Success message after form submission
 
-### `npm run eject`
+Real-time UI update after database changes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Frontend:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+React.js
 
-## Learn More
+JavaScript
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+HTML
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+CSS
 
-### Code Splitting
+## Backend / Database:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   Supabase
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   PostgreSQL (used internally by Supabase)
