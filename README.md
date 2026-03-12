@@ -44,3 +44,46 @@ CSS
    Supabase
 
    PostgreSQL (used internally by Supabase)
+
+
+   ## Project Workflow
+
+User fills the admission form
+
+↓
+
+Form validation runs
+
+↓
+
+Data is sent to Supabase
+
+↓
+
+Supabase stores data in the students table
+
+↓
+
+Application fetches stored data
+
+↓
+
+Student records are displayed in the table
+
+↓
+
+User can edit or delete records
+
+## CRUD Operations Implemented
+
+## Create
+New student data is inserted into the Supabase database when the form is submitted.
+
+## Read
+All student records are fetched from Supabase and displayed in a table.
+
+## Update
+Existing student records can be edited and updated in the database.
+
+## Delete
+Student records can be removed from both the UI and the database.
